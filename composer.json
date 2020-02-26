@@ -1,0 +1,22 @@
+{
+    "name": "cratia/common-fuctions",
+    "description": "Functions Common",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Ratia",
+            "email": "cratia.github@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Cratia\\Common\\": "src/"
+        }
+    }
+}

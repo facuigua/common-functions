@@ -18,5 +18,13 @@
         "psr-4": {
             "Cratia\\Common\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Cratia\\Common\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
     }
 }

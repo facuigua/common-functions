@@ -1,6 +1,6 @@
 {
-    "name": "cratia/common-fuctions",
-    "description": "Functions Common",
+    "name": "cratia/common-functions",
+    "description": "Common Functions",
     "type": "library",
     "license": "MIT",
     "authors": [

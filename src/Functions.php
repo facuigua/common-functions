@@ -76,7 +76,7 @@ class Functions
         foreach ($search as $index => $pattern) {
             $pattern = '/' . preg_quote($pattern, '/') . '/';
             $replacement = $replace[$index];
-            $sentence = preg_replace($pattern, $replacement, $sentence, 1);
+            $sentence = preg_replace($pattern, (string)$replacement, $sentence, 1);
         }
 
         return $sentence;
